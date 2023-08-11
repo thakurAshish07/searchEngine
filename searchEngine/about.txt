@@ -1,5 +1,0 @@
--Search engine website.
--Use API to fetch results from the Internet.
--Show search suggestions.
--Show history.
--
