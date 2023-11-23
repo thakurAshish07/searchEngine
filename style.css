@@ -22,16 +22,6 @@ body,html{
     margin: 1vw;
     color: white;
 }
-.nav button{
-    margin: 1vw;
-    height: 30px;
-    width: 100px;
-    border-radius: 25px;
-}
-.nav button:hover{
-    background-color: black;
-    color: white;
-}
 .page0{
     width: 100vw;
     height: 93vh;
@@ -88,13 +78,14 @@ form .fa-magnifying-glass{
     align-self: center;
     padding: 10px 20px;
 }
-form input{
+form input[type=search]{
     flex: 1;
     border: none;
     outline: none;
 }
-form button{
-    width: 7vw;
-    height: 8vh;
-    cursor: pointer;
+input[type=submit] {
+    background-color: rgb(155, 12, 12);
+    color: white;
+    font-family: serif;
+    font-size: 0px;
 }
